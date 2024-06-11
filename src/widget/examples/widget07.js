@@ -13,7 +13,7 @@ export default function (key, draw) {
             
 
             let s = shape(formas[pos])
-            s.fill(nextColor()).opacity(0.5)
+            s.fill(nextColor())
             s.move(40+x*340, 40+y*340).size(250)
             s.addTo(draw)        
         }    

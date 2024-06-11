@@ -21,7 +21,7 @@ function widget(key, draw) {
 
 
 
-    draw.rect().size(1000,1000).move(0,0).fill('#060435')
+    draw.rect().size(1000,1000).move(0,0).fill(nextColor()).opacity(0.6)
     sample(key,draw)
 
 
